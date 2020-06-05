@@ -1,0 +1,340 @@
+@font-face {
+    font-family: poppinsFont;
+    src: url(fonts/Poppins-Regular.ttf);
+  }
+  *{
+    max-width: 100%;
+        
+  }
+body{
+    font-family: poppinsFont;
+    color:  rgb(47, 48, 41);
+    background-color: rgba(128, 128, 128, 0.3);
+    max-width: 100% !important;
+   
+}
+
+
+.navbar ul{
+    list-style: none;
+}
+/* .carousel{
+    height: 500px;
+}
+.carousel img{
+    height:500px ;
+} */
+/* .brown{
+    font-weight: bold;
+    font-family: poppinsFont !important;
+    height: 50px;
+    width: 100%;
+    background-color:#273C2C  !important;
+    height: 130px;
+    color: #fff !important;   */
+
+/* } */
+
+.type p {
+    margin-left: 10px !important;
+}
+.title{
+    text-align: center;
+}
+.style-hr{
+    background-color:  rgb(78, 94, 82)    !important;
+    width: 200px;
+    border: 3px solid rgb(78, 94, 82)    !important;
+    border-radius: 2px;
+}
+.newProduct img{
+    width: 188px !important;
+    height: 300px !important;
+}
+.usefullLinks a{
+    color: white !important;
+}
+.socials{
+    display: flex; 
+    justify-content: space-evenly;
+
+}
+.usefullLinks a{
+    display: block;
+}
+.btn-primary{
+    border-color: rgb(23, 36, 26)    !important;
+    background-color:rgb(23, 36, 26)     !important;
+    padding-left: 10px !important;
+    font-size: 13px !important;
+    font-weight: bold !important;
+    padding-right: 10px !important;
+    color: white !important;
+    
+    
+}
+.dropdown-menu{
+    position: absolute;
+    right: 400px;
+    text-align: center;
+}
+.dropdown-item{
+    text-align: center  ;
+}
+.shop-main h4{
+    text-align: center !important;
+   
+}
+.about-main p{
+    text-align: center;
+    margin-top: 10px 40px !important;
+    padding: 10px 50px;
+}
+.footer{
+    background-color: #273C2C ;
+    height: 300px;
+    width: 100%; 
+    color: white;
+    position: relative !important;
+    bottom: 0px !important;
+}
+
+.fa-shopping-cart{
+    font-size: 16px;
+
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    background-color: #0097A7;
+    margin: 50px 0px;
+}
+.produtsSlider1{
+    margin-left: 50px;
+}
+.traditionalWear{
+   margin: 0px 0px 0px 10px !important;
+}
+.newPrdoucts,.onSale{
+    margin-bottom:60px !important;
+}
+.carousel-control-prev,.carousel-control-next{
+    background-color: black;
+    color: #000;
+}
+.produtsSlider1 img{
+    margin-left: 10px;
+}
+.shop-main{
+    width: 100%;
+    height: 700px;
+    
+}
+.socials img{
+   height: 30px ;
+   column-width: 30px ;
+}
+a{
+   text-decoration: none;
+   color: rgb(47, 48, 41) !important; 
+}
+
+.shop-main{
+    /* background-color: rgba(176, 190, 197, 0.17); */
+    background-color: whitesmoke;
+    margin-left: 10px;
+}
+.row{
+    padding: 0px 0px 0px 0px !important;
+    margin: 0px 0px 0px 0px !important;
+}
+.item{
+    box-shadow: 1px 1px 3px gray;
+    text-align: center;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.btn-success{
+    background-color: #273C2C  !important;
+    border-color: #273C2C  !important;
+    margin: 0px 12px !important;
+}
+
+.products img{ 
+    width: 286px !important;   
+    height: 200px !important;
+    display: block;
+}
+.shop-main div{
+    padding: 60px 0px;
+   
+}
+.card-img-top{
+    margin: 0px -0px 0px 0px !important;
+    margin-left: 0px !important;
+}
+.logo-img{
+    width:200px; 
+    height: 100px;
+}
+.shop-main h4{
+    text-align: left !important;
+}
+.lowerPart{
+    display: flex;
+    height: 100px;
+    justify-content: space-between ;
+    font-weight: bold;
+    font-size: 12px;
+}
+.lowerPart div{
+    margin: 0px 4px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+.navbar{
+    color: white !important;
+    font-weight: bold;
+    font-family: poppinsFont !important;
+    height: 50px;
+    width: 100%;
+    background-color: #273C2C  !important;
+    height: 130px;
+    color: #fff !important;  
+}
+
+
+.style-2{
+    color:  rgb(78, 94, 82) ;
+    background-color:  rgb(78, 94, 82) ;
+    border: 2px solid   !important;
+    border-radius: 2px;
+    width: 200px;
+}
+
+.products{
+    height: auto;
+    clear: both;
+    
+}
+
+@media screen and (max-width: 980px){
+    .shop-main{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .footer{
+        height: auto ;
+        text-align: center;
+        display: flex;
+
+
+    }
+    .slider{
+        margin-top: 100px;
+    }
+    .logo img{
+        width: 280px !important;
+        height: 90px !important;
+    }
+    
+    
+    
+    .shop-main div{
+        margin: 10px 0px 20px 0px !important;
+        padding:0px 0px 60px 0px !important ;
+        
+    }
+   .bridalWear{
+     margin-top: 20px !important;
+   }
+    .details{
+        padding-bottom: 20px;
+    }
+    .socials{
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    .item{
+       width: 100% !important;
+       margin-left: 16px !important;
+       
+       
+    }
+    .item div{
+        margin-left: 16px !important;
+       position: absolute;
+       right: 30px;
+       
+    }
+    .products img{
+        margin-right: auto;
+        margin-left: auto;
+        width: 286px !important;
+
+        height: 200px ;
+        display: block;
+        
+    }
+    
+    .btn-primary{
+        border-color: #273C2C  !important;
+        background-color:#273C2C  !important;
+        padding-left: 10px !important;
+        font-weight: bold !important;
+        padding-right: 10px !important;
+        display: block !important;
+        text-align: center;
+        padding: 20px;
+        font-size: 13px !important;
+        padding-left: 3px !important;
+        padding-right: 3px !important;
+    }
+    .contactForm{
+        margin-top: 100px;
+    }
+    .btn-primary :hover{
+        border: #273C2C ;
+    }
+    .navCentre{
+        margin-left: 0px;
+    }
+    logo-img{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .logo-img img{
+        width: 10px !important;
+        height: 20px !important;
+    }
+    .onSale img,.newPrdoucts img{ 
+        width: 90px;
+        height: 200px;
+    }
+}
+              /* 
+               */
+/* @media screen and (max-width: 780px){
+    .logo-img{
+        position: absolute;
+        left: 0px;
+    }
+    .logo-img img{
+        width: 80px !important;
+        height: 80px !important;
+    }
+}  */
+
+
+@media screen and (max-width: 980px){
+    /* .style-2{
+        margin-left: 270px !important;
+    } */
+}

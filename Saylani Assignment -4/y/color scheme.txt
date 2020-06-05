@@ -1,0 +1,9 @@
+#182825 btn
+#dbd5b5 nav+footer
+
+-------------------
+extra's 
+
+#C0CAAD
+#92977E
+#DCBF85
